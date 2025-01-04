@@ -1,0 +1,10 @@
+@import './layouts/header.css';
+@import './common.css';
+@import './layouts/info-panel.css';
+@import './layouts/classes.css';
+@import './layouts/bmi.css';
+@import './layouts/trainers.css';
+@import './layouts/purchase.css';
+@import './layouts/review.css';
+@import './layouts/contact.css';
+@import './layouts/footer.css';

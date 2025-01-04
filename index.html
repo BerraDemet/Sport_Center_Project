@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Center</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--HEADER SECTION--->
+    <div class="header-hero-container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="img/logo.png">
+                </div>
+                <div class="hamburger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="links">
+                    <a href="#hero">Home</a>
+                    <a href="#classes">Classes</a>
+                    <a href="#trainers">Trainer</a>
+                    <a href="#review">Review</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#" class="active">Join Us</a>
+                </div>
+            </nav>
+        <!--HERO SECTION-->
+        <section id="hero">
+            <div class="hero-container">
+            <div class="powerfull">
+                <h4>POWERFULL</h4>
+            </div>
+            <h1>Group Practice with Trainer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi incidunt aut quam recusandae nobis deleniti asperiores eveniet unde! Ratione quo, nesciunt iure maxime molestiae aliquam quam nam porro architecto velit.
+            Excepturi culpa ab, animi nesciunt cumque.</p>
+            <div class="hero-buttons">
+                <button class="sign-up-button">Sign Up</button>
+                <button class="details-button">Details</button>
+            </div>
+        </div>
+        </section>
+    </div>
+    <!--INFO PANEL SECTIONS-->
+    <section class="info-panel" id="home">
+        <div class="info-panel-container">
+            <div class="panel-item">
+                <p>325</p>
+                <p>Course</p>
+            </div>
+            <div class="panel-item">
+                <p>405</p>
+                <p>Work Out</p>
+            </div>
+            <div class="panel-item">
+                <p>305</p>
+                <p>Working Hour</p>
+            </div>
+            <div class="panel-item">
+                <p>705</p>
+                <p>Happy Client</p>
+            </div>
+        </div>
+    </section>
+    <!--CLASSES SECTION-->
+    <div class="bg-part"></div>
+    <div class="classes-container" id="classes">
+        <h2 class="header-item">OUR CLASSES</h2>
+        <div class="line"></div>
+        <p>Lorem ıpsum is not simply random text. It has roots in a piece of classical at Hampden-Syndey-Colloge.</p>
+        <div id="classes-buttons">
+            <button id="yoga" class="active">Yoga</button>
+            <button id="group">Group</button>
+            <button id="solo">Solo</button>
+            <button id="stretching">Stretching</button>
+        </div>
+        <div class="classes-content-container">
+            <div class="classes-content">
+                <h2>Why are your <span  class="classesH2">Yoga</span>?</h2>
+                <p id="classesP" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt alias laborum nemo, dolor ex facilis corrupti quod magni natus itaque blanditiis deleniti fugiat sed, excepturi eum inventore in voluptates cum.
+                Temporibus ipsa et obcaecati. Expedita veniam</p>
+                <h2>When comes <span class="classesSecondH2">Yoga</span> Your Time</h2>
+                <ul class="classes-list">
+                    <li class="classes-item-one">Saturday-Sunday: 8:00am - 10:00am</li>
+                    <li class="classes-item-two">Monday-Tuesday: 10:00am - 12:00pm</li>
+                    <li class="classes-item-three">Wednesday-Friday: 3:00pm - 6:00pm</li>
+                </ul>
+            </div>
+            <img src="img/yoga.jpg" id="classes-img">
+        </div>
+    </div>
+    <!--BMI SECTION-->
+    <div class="bmi-container">
+        <div class="bmi-content">
+        <h2>BMI CALCULATOR</h2>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45BC,making it over 2000 years old</p>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45BC,making it over 2000 years old.</p>
+            <div class="calculate-container">
+                <div class="height-part">
+                <input type="text" id="height" name="height" placeholder="Your Height"> 
+                <label>cm</label>
+                </div>
+                <div class="weight-part">
+                <input type="text" id="weight" name="weight" placeholder="Your Weight">
+                <label>kg</label>
+                </div>
+            </div>
+        </div>
+        <div class="bmi-img">
+            <h4>Your BMI: <span id="bmi-info"></span> </h4>
+            <img src="img/bmi-index.jpg">
+            <div class="arrow"></div>
+        </div>
+    </div>
+    <!--TRAINERS SECTION-->
+    <div class="trainers-container" id="trainers">
+        <h2 class="header-item">OUR BEST TRAINERS</h2>
+        <div class="line"></div>
+        <p>Lorem ıpsum is not simply random text. It has roots in a piece of classical at Hampden-Syndey-Colloge.</p>
+        <div class="trainers-content">
+            <div class="img-box">
+                <img src="img/trainer1.jpg">
+                <div class="name-content">
+                    <p>Jane Chris</p>
+                    <p>Pilates Trainer</p>
+                </div>
+            </div>
+            <div class="img-box">
+                <img src="img/trainer2.jpg">
+                <div class="name-content">
+                    <p>Denzel Wilmer</p>
+                    <p>Personal Trainer</p>
+                </div>
+            </div>
+            <div class="img-box">
+                <img src="img/trainer3.jpg">
+                <div class="name-content">
+                    <p>Jane Doe</p>
+                    <p>Cardio Trainer</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--PURCHASE SECTION-->
+    <div class="purchase-container">
+        <h2 class="header-item">PURCHASE FROM US</h2>
+        <div class="line"></div>
+        <p>Lorem ıpsum is not simply random text. It has roots in a piece of classical at Hampden-Syndey-Colloge.</p>
+        <div class="products">
+            <div class="card-item">
+                <img src="img/purchase1.jpg">
+                <h5>Kettlebell / 5kg</h5>
+                <p><span class="line-through">89.99$</span>/ 59,99$</p>
+                <button><i class="fa-solid fa-cart-shopping"></i> Add To Card</button>           
+            </div>
+            <div class="card-item">
+                <img src="img/purchase2.jpg">
+                <h5>Treadmill</h5>
+                <p><span class="line-through" >899.99$</span>/ 599,99$</p>
+                <button><i class="fa-solid fa-cart-shopping"></i> Add To Card</button>           
+            </div>
+            <div class="card-item">
+                <img src="img/purchase3.jpg">
+                <h5>Adjustable Dumbell</h5>
+                <p><span class="line-through" >89.99$</span>/ 59,99$</p>
+                <button><i class="fa-solid fa-cart-shopping"></i> Add To Card</button>           
+            </div>
+            <div class="card-item">
+                <img src="img/purchase4.jpg">
+                <h5>Kettlebell / 3kg</h5>
+                <p><span class="line-through" >69.99$</span>/ 39,99$</p>
+                <button><i class="fa-solid fa-cart-shopping"></i> Add To Card</button>           
+            </div>
+        </div>
+    </div>
+    <!--REVIEW SECTION-->
+    <div class="review-container" id="review">
+        <h2 class="header-item">REVIEW CLIENT</h2>
+        <div class="line"></div>
+        <p>Lorem ıpsum is not simply random text. It has roots in a piece of classical at Hampden-Syndey-Colloge.</p>
+        <div class="comments">
+            <div class="comment-part">
+                <div class="box-header">
+                    <img src="img/client1.jpg">
+                    <div class="client-info">
+                        <h5>Diet Expert</h5>
+                        <p>CFO</p>
+                    </div>
+                </div>
+                <div class="comment-box">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas aspernatur magni corrupti accusantium voluptatibus totam illo placeat eos porro sed adipisci odio blanditiis praesentium sapiente ullam illum, laboriosam ipsam ipsa.</p>
+                </div>
+            </div>
+            <div class="comment-part">
+                <div class="box-header">
+                    <img src="img/client2.jpg">
+                    <div class="client-info">
+                        <h5>Cardio Trainer</h5>
+                        <p>CEO</p>
+                    </div>
+                </div>
+                <div class="comment-box">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas aspernatur magni corrupti accusantium voluptatibus totam illo placeat eos porro sed adipisci odio blanditiis praesentium sapiente ullam illum, laboriosam ipsam ipsa.</p>
+                </div>
+            </div>
+    </div>
+    </div>
+    <!--CONTACT SECTION-->
+    <div class="contact-container" id="contact">
+        <div class="header-part">
+        <h2 class="header-item">CONTACT US</h2>
+        <div class="line"></div>
+        <p>Lorem ıpsum is not simply random text. It has roots in a piece of classical at Hampden-Syndey-Colloge.</p>
+        </div>
+        <div class="map-form-container">
+            <div class="form-container">
+                <div class="company-info">
+                    <div class="phone">
+                        <p>Mobile Number</p>
+                        <p>+135 773 321 4442</p>
+                    </div>
+                    <div class="email">
+                        <p>Email Address</p>
+                        <p>demo@demo.com</p>
+                    </div>
+                </div>
+                <h3>Make An Appoinment</h3>
+                <form>
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                    <textarea placeholder="Your Message" rows="8" cols="50"></textarea>
+                </form>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195885.0548433314!2d32.59761346265846!3d39.903259418858894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d347d520732db1%3A0xbdc57b0c0842b8d!2sAnkara!5e0!3m2!1str!2str!4v1736016796324!5m2!1str!2str" width="470" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <!--FOOTER SECTION-->
+    <footer>
+        <img src="img/logo.png">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptatibus dolores, cumque vitae iusto atque reprehenderit numquam temporibus, delectus neque eaque a illo ex error porro quod. Rem, alias officiis!
+        Consectetur asperiores porro at, explicabo voluptate repellendus saepe ipsam, eligendi dolore quis, natus ullam aperiam. Nihil sapiente ratione aliquam cumque facilis sed iure magni beatae dolore, distinctio, et ipsum dolorem!</p>
+        <div class="footer-links">
+            <div class="information-links">
+                <h3>Information</h3>
+                    <a href="">About Us</a>
+                    <a href="">Classes</a>
+                    <a href="">Blog</a>
+                    <a href="">Contact</a>
+            </div>
+            <div class="helpful-links">
+                <h3>Helpful Links</h3>
+                    <a href="">Services</a>
+                    <a href="">Supports</a>
+                    <a href="">Terms & Condition</a>
+                    <a href="">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+    
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

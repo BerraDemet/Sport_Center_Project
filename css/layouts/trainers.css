@@ -1,0 +1,100 @@
+.trainers-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2rem 12rem 4rem 12rem;
+    background-color: var(--background-color-1);
+}
+.trainers-container p {
+    width: 50%;
+    text-align: center;
+}
+.trainers-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.img-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.img-box::before {
+        position: absolute;
+        content: "";
+        z-index: -1;
+        width: 108%;
+        height: 40%;
+        left: -4%;
+        top: 31%;
+        background-color: var(--color-primary);
+        z-index: -1;    
+        
+}
+.img-box::after {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    width: 40%;
+    height: 105%;
+    left: 33%;
+    top: -3%;
+    background-color: var(--color-primary);
+
+}
+.img-box  img {
+    border-radius: 2%;
+    border: 2px solid var(--color-secondary);
+}
+.name-content {
+    background-color: var(--color-primary);
+    width: 3rem;
+    height: 4rem;
+    position: absolute;
+    width: 90%;
+    height: 60%;
+    bottom: -25%;
+    left: 5%;
+    clip-path: polygon(0 8%, 15% 8%, 15% 0%, 85% 0%, 85% 8%, 100% 8%, 100% 39%, 83% 39%, 83% 48%, 15% 48%, 15% 38%, 0 38%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 1.5rem;
+    visibility: hidden; 
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.name-content p{
+    color: var(--font-color-1);
+}
+.img-box:hover::before {
+    height: 50%;
+    transition: height 0.3s ease-in-out;
+}
+.img-box:hover::after {
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+.img-box:hover .name-content {
+    visibility: visible; 
+    opacity: 1;
+    transform: translateY(-50%, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 576px) {
+    .trainers-container {
+        padding: 2rem 1rem;
+        
+    }
+    .trainers-container p {
+        width: 100%;
+    }
+    .trainers-content {
+        display: flex;
+        flex-direction: column;
+    }
+}
